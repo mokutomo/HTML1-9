@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main{
+	width: 960px;
+	margin:50px auto;
+}
+
+.main1{
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	width: 300px;
+	position: relative;
+}
+.main2{
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	width: 300px;
+	margin:0 30px;
+	position: relative;
+}
+.main3{
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	width: 300px;
+	position: relative;
+}
+.main-sub{
+	padding:10px;
+	width: 300px;
+}
+.main-image{
+	background-image:url(img/flow01.png);
+	background-size: cover;
+	background-position: center;
+	width: 280px;
+	height: 150px;
+}
+.main-image2{
+	background-image:url(img/flow02.png);
+	background-size: cover;
+	background-position: center;
+	width: 280px;
+	height: 150px;
+}
+.main-image3{
+	background-image:url(img/flow03.png);
+	background-size: cover;
+	background-position: center;
+	width: 280px;
+	height: 150px;
+}
+.main-text{
+	font-size: 18px;
+	color:gray;
+}
+p{
+	font-size: 15px;
+	color:gray;
+}
+.main-step1{
+	background-color: orange;
+	color: white;
+	padding:2px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}.main-step2{
+	background-color: orange;
+	color: white;
+	padding:2px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}.main-step3{
+	background-color: orange;
+	color: white;
+	padding:2px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+@media screen and (max-width:768px) {
+	.main1{
+		float:none;
+		margin:0 auto;
+	}
+	.main2{
+		float:none;
+		margin:20px auto;
+	}
+
+	.main3{
+		float:none;
+		margin:0 auto;
+	}
+	.main{
+		width: 90%;
+	}
+}
